@@ -17,7 +17,6 @@ function Page() {
       return console.log(error);
     }
 
-    // else successful
     console.log(result);
     return router.push('/admin');
   };
